@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.main-heading {
+  font-family: "Roboto";
+  color: #0f172a;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bg-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: column;
+  justify-content: center;
+}
+
+.boxes-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-box {
+  width: 100px;
+  background-color: #fbbf24;
+  height: 100px;
+  font-family: "Bree Serif";
+  color: #ffffff;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.medium-box {
+  width: 250px;
+  background-color: #38bdf8;
+  height: 250px;
+  font-family: "Bree Serif";
+  color: #ffffff;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.large-box {
+  width: 500px;
+  background-color: #ec4899;
+  height: 500px;
+  font-family: "Bree Serif";
+  color: #ffffff;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-heading {
+    font-size: 50px;
+  }
+  .boxes-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+}
